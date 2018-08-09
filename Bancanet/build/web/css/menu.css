@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #072146;
+    height: 25vh; 
+    align-items: center;
+}
+
+/**MENU**/
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: -.2em;
+}
+  
+.menu > li{
+    margin: 0 1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+li > a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fondomenu{
+    background-image: url("../img/welcome.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    position: absolute; 
+}
+

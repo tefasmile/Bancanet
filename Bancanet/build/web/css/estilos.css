@@ -1,0 +1,113 @@
+/**Estilos del loguin del banco**/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #072146;
+    height: 25vh;
+}
+
+
+.fondologin{
+    background-image: url("../img/background.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    position: absolute; 
+}
+
+
+.formweb{
+    background: white;
+    width: 389px;
+    height: 380px;
+    position: relative;
+    margin-left: 23px;
+    top: 15px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 8px #131010;
+}
+
+.formbank{
+   
+    width: 460px;
+    position: relative;
+}
+
+.center{
+    text-align: center;
+    color: gray;
+    border-bottom: slategrey;
+    top: 9px;
+    position: relative;
+  }
+
+.fieldLabel{
+    position: absolute;
+    color: #6c7378;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+input[type=text], select {
+    width: 68%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.inputlabel {
+    height: 44px;
+    width: 68%;
+    padding: 0 10px;
+    border: 1px solid #9da3a6;
+    background: #fff;
+    text-overflow: ellipsis;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #000;
+    font-size: 1em;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    direction: ltr;
+}
+
+.send {
+    color: #fff;
+    background-color: #00598e;
+    padding: 0 40px 0 40px;
+    font-size: 0.9em;
+    font-weight: 500;
+    width: 85%;
+    height: 40px;
+    line-height: 36px;
+    display: inline-block;
+    margin: 1em 0;
+    border-radius: 6px;
+    border: 1px solid steelblue;
+}
+
+
+
+
+
+
+
+
